@@ -100,9 +100,11 @@ Salma-ERP-Portfolio/
 │   ├── hr-module.md
 │   ├── payroll-module.md
 │   ├── certificate-management.md
-│   ├── dyeing-module.md
+│   └── dyeing-module.md
 │
 ├── diagrams/
+|   ├── .gitkeep
+|   └── system-architecture.png
 │
 └── screenshots/
 ```
