@@ -101,7 +101,6 @@ Salma-ERP-Portfolio/
 │   ├── payroll-module.md
 │   ├── certificate-management.md
 │   ├── dyeing-module.md
-│   └── technical-contributions.md
 │
 ├── diagrams/
 │
