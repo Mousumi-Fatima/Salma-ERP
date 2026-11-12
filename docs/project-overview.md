@@ -38,6 +38,11 @@ The system can be understood through the following layers:
 - Whitelisted server-side methods.
 - Communication between frontend and backend components.
 - Other integrations, where applicable.
+  
+### 2.5 Architecture Diagram
+![Salma ERP System Architecture](../diagrams/system-architecture.png)
+
+*Figure 1: High-level client-server architecture of Salma ERP.*
 
 ## 3. Functional Module Organization
 
