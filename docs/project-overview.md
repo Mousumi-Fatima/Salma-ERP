@@ -119,7 +119,6 @@ Detailed functional descriptions and workflow diagrams are maintained separately
 | `payroll-module.md` | Payroll-related functionality and contributions |
 | `certificate-management.md` | Certificate management functionality |
 | `dyeing-module.md` | Dyeing-related functionality |
-| `technical-contributions.md` | Technical implementation details |
 
 ## 9. Architecture Documentation Notes
 
