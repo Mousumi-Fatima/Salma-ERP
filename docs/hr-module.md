@@ -127,6 +127,14 @@ It records criteria-wise marks, interviewer comments, skill assessments, overall
 
 *Figure 7: Interview Feedback form showing candidate assessment criteria and evaluation details.*
 
+#### 2.1.7 Candidate Approval
+
+Candidate Approval is used to review interview results and finalize candidate selection through an approval workflow.
+
+It consolidates interview evaluations, proposed salary, employment type, joining date, and probation details. It also includes job offer terms and appointment letter information for the selected candidate.
+
+
+
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
