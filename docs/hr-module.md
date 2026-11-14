@@ -50,7 +50,7 @@ The relevant functional areas include:
 
 The following screenshot shows the Recruitment workspace and its key functional areas.
 
-![HR Module Overview](../screenshots/hr-overview.png)
+![HR Module Overview](../screenshots/recruitment-overview.png)
 
 *Figure 2: Recruitment workspace dashboard of Salma ERP.*
 
