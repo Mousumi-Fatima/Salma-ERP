@@ -107,15 +107,25 @@ It stores applicant details, contact information, resume, salary expectations, a
 
 *Figure 5: Job Applicant form showing candidate information, application status, and interview summary.*
 
-#### 2.1.5 Interview Management
+#### 2.1.5 Interview
 
-Interview Management is used to schedule and track candidate interviews throughout the recruitment process.
+Interview doc is used to schedule and track candidate interviews throughout the recruitment process.
 
 It maintains interview rounds, scheduled dates and times, interview locations, assigned interviewers, and interview status. Interview feedback and results can also be recorded for candidate evaluation.
 
 ![Interview Management](../screenshots/interview.png)
 
 *Figure 6: Interview form showing interview scheduling, interviewers, and candidate evaluation status.*
+
+#### 2.1.6 Interview Feedback
+
+Interview Feedback is used to evaluate candidates based on predefined assessment criteria.
+
+It records criteria-wise marks, interviewer comments, skill assessments, overall evaluation, candidate strengths, and areas for improvement. It also helps document the interview result and salary expectations.
+
+![Interview Feedback](../screenshots/interview-feedback.png)
+
+*Figure 7: Interview Feedback form showing candidate assessment criteria and evaluation details.*
 
 ### 2.2 Employee Lifecycle Management
 
