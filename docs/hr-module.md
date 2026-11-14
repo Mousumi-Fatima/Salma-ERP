@@ -7,7 +7,15 @@ The HR Management module is one of the key functional areas of Salma ERP.
 
 It supports human resource management activities, with a focus on recruitment processes and employee lifecycle management.
 
-The module includes standard ERPNext HR functionalities along with project-specific customizations developed to meet business requirements.
+The module includes standard ERPNext HR functionalities along with project-specific customizations developed to meet business requirements.The HR module provides a centralized workspace for managing various human resource operations within Salma ERP.
+
+It brings together key HR functionalities, including Employee Management, Employee Lifecycle, Recruitment, Leave Management, Shift & Attendance, and other HR-related operations.
+
+The HR workspace provides quick access to frequently used features, reports, and master data.
+HR Workspace Overview
+
+The following screenshot shows the HR workspace dashboard and its available functional areas.
+Figure 1: HR workspace dashboard of Salma ERP.
 
 ## 2. Functional Areas
 
