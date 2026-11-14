@@ -86,6 +86,20 @@ It captures position details, required qualifications, skills, experience, salar
 
 *Figure 3: Job Requisition form showing hiring requirements and approval workflow.*
 
+
+#### 2.1.3 Job Circular
+
+Job Circular is used to create and manage job openings based on recruitment requirements.
+
+It contains job details, including designation, department, employment type, location, job description, salary range, and publication status. It also supports publishing job openings on the website and setting application deadlines.
+
+**Screenshot:**
+
+![Job Circular](../screenshots/job-circular.png)
+
+*Figure 4: Job Circular form showing job opening details and publication settings.*
+
+
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
