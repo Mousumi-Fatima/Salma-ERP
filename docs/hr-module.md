@@ -12,6 +12,7 @@ The module includes standard ERPNext HR functionalities along with project-speci
 It brings together key HR functionalities, including Employee Management, Employee Lifecycle, Recruitment, Leave Management, Shift & Attendance, and other HR-related operations.
 
 The HR workspace provides quick access to frequently used features, reports, and master data.
+
 HR Workspace Overview
 ![HR Module Overview](../screenshots/hr-overview.png)
 The following screenshot shows the HR workspace dashboard and its available functional areas.
