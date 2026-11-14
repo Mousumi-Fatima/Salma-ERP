@@ -13,7 +13,7 @@ It brings together key HR functionalities, including Employee Management, Employ
 
 The HR workspace provides quick access to frequently used features, reports, and master data.
 HR Workspace Overview
-
+![HR Module Overview](../screenshots/hr-overview.png)
 The following screenshot shows the HR workspace dashboard and its available functional areas.
 Figure 1: HR workspace dashboard of Salma ERP.
 
