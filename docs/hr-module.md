@@ -74,6 +74,18 @@ The following screenshot illustrates the Manpower Setup interface, including man
 ![Manpower Setup](../screenshots/manpower-setup.png)
 
 *Figure 2: Manpower Setup interface showing workforce planning and manpower details.*
+
+
+#### 2.1.2 Job Requisition
+
+Job Requisition is used to initiate and manage requests for new or replacement employees across different departments.
+
+It captures position details, required qualifications, skills, experience, salary range, hiring justification, and approval status. It also supports a workflow for reviewing and approving hiring requests.
+
+![Job Requisition](../screenshots/job-requisition.png)
+
+*Figure 3: Job Requisition form showing hiring requirements and approval workflow.*
+
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
