@@ -133,7 +133,35 @@ Candidate Approval is used to review interview results and finalize candidate se
 
 It consolidates interview evaluations, proposed salary, employment type, joining date, and probation details. It also includes job offer terms and appointment letter information for the selected candidate.
 
+#### 2.1.8 Job Offer
 
+Job Offer is used to prepare and manage employment offers for selected candidates.
+
+It contains proposed salary, designation, department, company, expected joining date, probation period, acceptance deadline, and terms and conditions. Once the offer is submitted, an email containing the Employee Information Form link is sent to the candidate to collect the required personal and employment information.
+
+The Job Offer also provides access to the Employee document for the next stage of the hiring process.
+
+![Job Offer](../screenshots/job-offer.png)
+
+*Figure 9: Job Offer form showing employment terms, candidate details, and offer status.*
+
+#### 2.1.9 Employee Information Collection
+
+The Employee Information Form is a web-based form linked to the Employee Onboarding DocType. It allows selected candidates to submit their personal and employment-related information after receiving a job offer(after clicking the submit button of Job Offer Doc).
+
+The form collects the following information:
+
+- **Personal Information:** Employee name, parents' names, date of birth, NID, gender, marital status, and blood group.
+- **Contact Details:** Permanent address, current address, mobile number, and personal email.
+- **Emergency Contact:** Emergency contact person's name, relationship, and phone number.
+- **Bank Details:** Bank name, branch, and account number.
+- **Educational Qualifications:** Academic information and qualifications.
+- **Previous Work Experience:** Previous employment history.
+- **Additional Information:** TIN number and optional medical condition or disability information.
+
+![Employee Information Form](../screenshots/employee-information-form.png)
+
+*Figure 10: Employee Information Form web page used to collect candidate information during onboarding.*
 
 ### 2.2 Employee Lifecycle Management
 
