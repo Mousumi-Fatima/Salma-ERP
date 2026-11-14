@@ -103,7 +103,6 @@ Salma-ERP-Portfolio/
 │   └── dyeing-module.md
 │
 ├── diagrams/
-|   ├── .gitkeep
 |   └── system-architecture.png
 │
 └── screenshots/
