@@ -107,6 +107,16 @@ It stores applicant details, contact information, resume, salary expectations, a
 
 *Figure 5: Job Applicant form showing candidate information, application status, and interview summary.*
 
+#### 2.1.5 Interview Management
+
+Interview Management is used to schedule and track candidate interviews throughout the recruitment process.
+
+It maintains interview rounds, scheduled dates and times, interview locations, assigned interviewers, and interview status. Interview feedback and results can also be recorded for candidate evaluation.
+
+![Interview Management](../screenshots/interview.png)
+
+*Figure 6: Interview form showing interview scheduling, interviewers, and candidate evaluation status.*
+
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
