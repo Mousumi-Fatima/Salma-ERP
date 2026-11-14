@@ -25,28 +25,34 @@ My primary development contributions in this module focus on the following areas
 
 ### 2.1 Recruitment Management
 
-Recruitment Management supports activities related to the hiring process.
+Recruitment Management covers the hiring process, from manpower planning and job requisition to candidate selection and onboarding.
 
 The relevant functional areas include:
 
-- Job Opening Management
+- Manpower Setup
+- Job Requisition
+- Job Circular
 - Job Applicant Management
-- Recruitment-related information and records
-- Interview-related activities, where applicable
+- Interview Management
+- Candidate Approval
+- Job Offer Management
+- Employee Onboarding
 
 **My Contributions:**
 
-- Developed and customized recruitment-related functionalities.
-- Worked with relevant DocTypes and business logic.
+- Developed and customized recruitment-related DocTypes and functionalities.
+- Worked on manpower setup and job requisition processes.
+- Implemented customizations for job circular and applicant management.
+- Worked on interview and candidate approval processes.
+- Contributed to job offer and employee onboarding functionalities.
 - Implemented frontend and backend customizations based on assigned requirements.
-
 **Screenshots:**
 
-Add approved screenshots of the recruitment features below.
+The following screenshot shows the Recruitment workspace and its key functional areas.
 
-![Job Opening](../screenshots/hr/recruitment/job-opening.png)
+![HR Module Overview](../screenshots/hr-overview.png)
 
-*Figure 1: Job Opening interface.*
+*Figure 2: Recruitment workspace dashboard of Salma ERP.*
 
 ![Job Applicant](../screenshots/hr/recruitment/job-applicant.png)
 
