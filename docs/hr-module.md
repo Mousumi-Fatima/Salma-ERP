@@ -93,12 +93,19 @@ Job Circular is used to create and manage job openings based on recruitment requ
 
 It contains job details, including designation, department, employment type, location, job description, salary range, and publication status. It also supports publishing job openings on the website and setting application deadlines.
 
-**Screenshot:**
-
 ![Job Circular](../screenshots/job-circular.png)
 
 *Figure 4: Job Circular form showing job opening details and publication settings.*
 
+#### 2.1.4 Job Applicant
+
+Job Applicant is used to manage candidate information and track applications for published job openings.
+
+It stores applicant details, contact information, resume, salary expectations, and application status. It also displays related interview information and hiring progress.
+
+![Job Applicant](../screenshots/job-applicant.png)
+
+*Figure 5: Job Applicant form showing candidate information, application status, and interview summary.*
 
 ### 2.2 Employee Lifecycle Management
 
