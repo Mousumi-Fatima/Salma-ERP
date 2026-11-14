@@ -54,10 +54,26 @@ The following screenshot shows the Recruitment workspace and its key functional 
 
 *Figure 2: Recruitment workspace dashboard of Salma ERP.*
 
-![Job Applicant](../screenshots/hr/recruitment/job-applicant.png)
+#### 2.1.1 Manpower Setup
 
-*Figure 2: Job Applicant interface.*
+Manpower Setup is used to organize and monitor workforce requirements across different departments and designations.
 
+It maintains manpower information based on organizational structure, including department, section, designation, employee category, and branch.
+
+**Key Functionalities:**
+
+- Department-wise and designation-wise manpower planning.
+- Tracking approved manpower and current manpower.
+- Monitoring existing manpower.
+- Identifying vacant positions based on manpower requirements.
+- Maintaining salary range information for designated positions.
+- Organizing manpower details by employee category and branch.
+
+The following screenshot illustrates the Manpower Setup interface, including manpower summary information and the detailed manpower table.
+
+![Manpower Setup](../screenshots/hr/manpower-setup.png)
+
+*Figure 2: Manpower Setup interface showing workforce planning and manpower details.*
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
