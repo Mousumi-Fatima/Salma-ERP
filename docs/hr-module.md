@@ -71,7 +71,7 @@ It maintains manpower information based on organizational structure, including d
 
 The following screenshot illustrates the Manpower Setup interface, including manpower summary information and the detailed manpower table.
 
-![Manpower Setup](../screenshots/hr/manpower-setup.png)
+![Manpower Setup](../screenshots/manpower-setup.png)
 
 *Figure 2: Manpower Setup interface showing workforce planning and manpower details.*
 ### 2.2 Employee Lifecycle Management
