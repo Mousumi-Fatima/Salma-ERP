@@ -227,6 +227,16 @@ It records the return of company property, settlement of outstanding dues, revoc
 
 *Figure 15: Employee Clearance Certificate showing company property return, financial clearance, IT access revocation, and departmental confirmations.*
 
+#### 2.2.5 Full and Final Statement
+
+Full and Final Statement is used to consolidate an employee's final payable amounts and outstanding dues during the exit process.
+
+It records employee and relieving details, payable components with their reference documents and accounts, clearance of outstanding dues, IT access revocation, and confirmations from IT, HR, management, and internal audit. It also includes employee acknowledgment and can be linked to a Journal Entry for accounting purposes.
+
+![Full and Final Statement](../screenshots/full-and-final-statement.png)
+
+*Figure 16: Full and Final Statement showing final payables, outstanding dues, and clearance confirmations.*
+
 ## 3. Technical Implementation
 
 The HR module development involved the following technologies and implementation areas, where applicable:
