@@ -207,6 +207,16 @@ Once the resignation is approved, the employee's status changes from **Active** 
 
 *Figure 13: Employee Resignation Form showing resignation details, approval workflow, and exit-related information.*
 
+#### 2.2.3 Exit Interview
+
+Exit Interview is used to collect feedback from employees who are leaving the organization and understand their reasons for resignation.
+
+It records employee and interview details, reasons for leaving, job experience ratings, feedback on management and company culture, and satisfaction with compensation and benefits. It also captures suggestions for improvement, the employee's willingness to rejoin, and the final exit decision.
+
+![Exit Interview](../screenshots/exit-interview.png)
+
+*Figure 15: Exit Interview form showing employee feedback, job experience assessment, and final decision.*
+
 ## 3. Technical Implementation
 
 The HR module development involved the following technologies and implementation areas, where applicable:
