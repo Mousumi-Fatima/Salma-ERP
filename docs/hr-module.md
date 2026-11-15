@@ -173,24 +173,27 @@ The appointment letter is currently handled manually using the configured templa
 
 ### 2.2 Employee Lifecycle Management
 
-Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
+Employee Lifecycle Management covers employee information and employment-related processes throughout an employee's journey in the organization.
 
-**My Contributions:**
+The module includes employee records, onboarding, resignation, separation, exit interviews, clearance, and other employee-related activities.
 
-- Worked on employee lifecycle-related functionalities.
-- Customized relevant forms and DocTypes.
-- Implemented required business logic and validations.
-- Worked on related workflows and permissions, where applicable.
+**Employee Lifecycle Workspace:**
 
-**Screenshots:**
+![Employee Lifecycle Workspace](../screenshots/employee-lifecycle-overview.png)
 
-![Employee List](../screenshots/hr/employee-lifecycle/employee-list.png)
+*Figure 11: Employee Lifecycle workspace showing employee management features and related activities.*
 
-*Figure 3: Employee List interface.*
+#### 2.2.1 Employee
 
-![Employee Form](../screenshots/hr/employee-lifecycle/employee-form.png)
+Employee is the central DocType used to maintain an employee's official information and employment records.
 
-*Figure 4: Employee Form interface.*
+It stores personal details, contact information, employment information, department, designation, reporting structure, joining details, and other HR-related information. It also provides access to related employee lifecycle activities.
+
+**Employee Form**
+
+![Employee Form](../screenshots/employee-form.png)
+
+*Figure 12: Employee form showing employee information and employment details.*
 
 ## 3. Technical Implementation
 
