@@ -163,6 +163,14 @@ The form collects the following information:
 
 *Figure 10: Employee Information Form web page used to collect candidate information during onboarding.*
 
+#### 2.1.10 Appointment Letter
+
+Appointment Letter is used to prepare formal employment appointment documents for selected candidates based on their job offers.
+
+It is linked to Job Applicant and Job Offer records and includes proposed salary, company, branch, appointment date, and a predefined appointment letter template. The letter body contains employment details, salary and benefits, working conditions, leave policy, termination terms, and employee acceptance.
+
+The appointment letter is currently handled manually using the configured template.
+
 ### 2.2 Employee Lifecycle Management
 
 Employee Lifecycle Management focuses on employee-related processes and information throughout the employment journey.
