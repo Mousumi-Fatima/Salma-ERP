@@ -195,6 +195,18 @@ It stores personal details, contact information, employment information, departm
 
 *Figure 12: Employee form showing employee information and employment details.*
 
+#### 2.2.2 Employee Resignation Form
+
+Employee Resignation Form is used to record and manage an employee's resignation request through an approval workflow.
+
+It captures resignation details, submission and effective dates, reason for leaving, and supporting documents. It also records the notice period, transition and handover plans, final payment information, return of company property, operational impact, and legal compliance.
+
+Once the resignation is approved, the employee's status changes from **Active** to **Left**. Related exit activities, such as Exit Interview and Employee Clearance, can then be carried out.
+
+![Employee Resignation Form](../screenshots/employee-resignation-form.png)
+
+*Figure 13: Employee Resignation Form showing resignation details, approval workflow, and exit-related information.*
+
 ## 3. Technical Implementation
 
 The HR module development involved the following technologies and implementation areas, where applicable:
