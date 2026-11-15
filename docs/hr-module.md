@@ -215,7 +215,17 @@ It records employee and interview details, reasons for leaving, job experience r
 
 ![Exit Interview](../screenshots/exit-interview.png)
 
-*Figure 15: Exit Interview form showing employee feedback, job experience assessment, and final decision.*
+*Figure 14: Exit Interview form showing employee feedback, job experience assessment, and final decision.*
+
+#### 2.2.4 Employee Clearance Certificate
+
+Employee Clearance Certificate is used to verify and document the completion of an employee's clearance process before leaving the organization.
+
+It records the return of company property, settlement of outstanding dues, revocation of IT and system access, and clearance confirmations from the relevant departments, HR, management, and internal audit.
+
+![Employee Clearance Certificate](../screenshots/employee-clearance-certificate.png)
+
+*Figure 15: Employee Clearance Certificate showing company property return, financial clearance, IT access revocation, and departmental confirmations.*
 
 ## 3. Technical Implementation
 
