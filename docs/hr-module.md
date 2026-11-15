@@ -237,6 +237,16 @@ It records employee and relieving details, payable components with their referen
 
 *Figure 16: Full and Final Statement showing final payables, outstanding dues, and clearance confirmations.*
 
+#### 2.2.6 Final Settlement
+
+Final Settlement is used to calculate the final amount payable to an employee during the exit process.
+
+It includes the employee's category, settlement month, attendance and leave details, monthly salary, other payable amounts, and earned leave (EL) payment. It also considers applicable deductions, such as notice pay and revenue stamp, to determine the final payment.
+
+![Final Settlement](../screenshots/final-settlement.png)
+
+*Figure 17: Final Settlement form showing attendance details, payable components, deductions, and final payment calculation.*
+
 ## 3. Technical Implementation
 
 The HR module development involved the following technologies and implementation areas, where applicable:
