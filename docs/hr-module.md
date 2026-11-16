@@ -46,7 +46,6 @@ The relevant functional areas include:
 - Worked on interview and candidate approval processes.
 - Contributed to job offer and employee onboarding functionalities.
 - Implemented frontend and backend customizations based on assigned requirements.
-**Screenshots:**
 
 The following screenshot shows the Recruitment workspace and its key functional areas.
 
@@ -246,6 +245,20 @@ It includes the employee's category, settlement month, attendance and leave deta
 ![Final Settlement](../screenshots/final-settlement.png)
 
 *Figure 17: Final Settlement form showing attendance details, payable components, deductions, and final payment calculation.*
+
+### 2.3 Shift & Attendance Management
+
+The HR Management module also includes Shift & Attendance Management, which handles employee attendance records, shift schedules, and attendance-related activities.
+
+### 2.4 Leave Application
+
+Leave Application is used by employees to submit leave requests for a specific period. It records employee information, leave type, leave dates, total leave days, reason for leave, and the assigned leave approver.
+
+The form also displays the employee's leave balance, including allocated, used, pending, and available leave days. Submitted applications are processed through an approval workflow.
+
+![Leave Application](../screenshots/leave-application.png)
+
+*Figure 18: Leave Application form showing employee details, leave information, leave balance, and approval workflow.*
 
 ## 3. Technical Implementation
 
