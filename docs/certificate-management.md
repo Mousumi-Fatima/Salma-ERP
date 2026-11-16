@@ -9,8 +9,6 @@ Certificate Management is part of the Import process in Salma ERP. It is used to
 
 The functionality supports certificate registration, certificate type configuration, linking certifications with imported products, and tracking certificate-related quantities through the import process.
 
-My development contributions primarily focus on the Certificate and Certificate Type DocTypes and certificate-related functionality across the import process.
-
 ### 1.2. Import Process Overview
 
 The import process generally follows this sequence:
@@ -44,7 +42,7 @@ It includes the following information:
 - **Product Details:** Products associated with the certificate, including LC number, product code, product name, supplier, and HS code.
 - **Attachments:** Supporting documents such as permit copies, application forms, and authority certificates.
 
-### Certificate Type
+### 1.3.1. Certificate Type
 
 The Certificate Type DocType is used to define and maintain different types of certificates. For example, BCI-Slub is configured as a certificate type, with an associated wastage percentage.
 
@@ -109,11 +107,11 @@ The general sales process follows this sequence:
 
 A Delivery Order is created with reference to the relevant sales information, including PI and Export LC details. Delivery Challan is then used to record the actual delivery against the order.
 
-### 2.3. Certificate Stock Balance Report
+### 2.3. Certificate Configuration in Sales
 
-The Certificate Stock Balance report provides a consolidated view of certificate-related quantity movements associated with sales and delivery transactions.
+The Certificate and Certificate Type configurations maintained in the Import module are also used in Sales-related certificate operations.
 
-It tracks certificate quantities from Sales PI booking through Certificate Claim and Certificate Issue, helping users monitor the certificate stock position for different items.
+The configured certificate types, percentages, and wastage information are utilized during Certificate Issue generation to calculate certificate quantities against delivered products.
 
 ### 2.4. Sales PI and Delivery Order
 
@@ -212,4 +210,6 @@ Negative balances are highlighted in red to help identify negative certificate s
 
 ## 4. Confidentiality
 
-All screenshots must be anonymized before public publication. Company, importer, supplier, customer, and contact details, Certificate and Certificate Type information, Certificate Issue and Certificate Claim references, LC and transaction references, sensitive quantities, financial values, and other confidential business data must be hidden or replaced with sample data.
+All screenshots must be anonymized before public publication. Company, importer, supplier, customer, employee, and contact details, sensitive certificate numbers, Certificate Issue and Certificate Claim references, LC and transaction references, financial values, account details, and other confidential business information must be hidden or replaced with sample data.
+
+Relevant interface elements, field labels, and functional details may remain visible to demonstrate the system's features.
