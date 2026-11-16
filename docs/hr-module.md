@@ -329,7 +329,7 @@ The workflow supports actions such as Apply, Approve, Reject, Resubmit, Check, a
 
 *Figure 22: ERPNext Workflow configuration showing document states, role-based transitions, and conditional approval rules.*
 
-### 4. Print Format Customization
+## 4. Print Format Customization
 
 Print Formats are used to present ERPNext documents in structured, printable layouts suitable for official and business purposes.
 
@@ -344,7 +344,7 @@ The customization involved using **Jinja, HTML, CSS, and Frappe Print Format fea
 - Official letters and certificates
 - Other business-related documents
 
-### 5. Report Customization
+## 5. Report Customization
 
 Reports provide structured views of HR data to support monitoring, tracking, and business decision-making.
 
