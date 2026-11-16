@@ -1,9 +1,9 @@
 
 # Certificate Management
 
-# Import Management
+## 1. Import Management
 
-## 1. Overview
+### 1. Overview
 
 Certificate Management is part of the Import process in Salma ERP. It is used to maintain certification information associated with imported materials and products.
 
@@ -11,7 +11,7 @@ The functionality supports certificate registration, certificate type configurat
 
 My development contributions primarily focus on the Certificate and Certificate Type DocTypes and certificate-related functionality across the import process.
 
-## 2. Import Process Overview
+### 2. Import Process Overview
 
 The import process generally follows this sequence:
 
@@ -30,7 +30,7 @@ In some cases, the process may proceed directly from Shipment Document to MRR, w
 
 After an MRR is submitted, a Certificate Claim document is automatically generated to maintain the related certificate claim information.
 
-## 3. Certificate Management
+### 3. Certificate Management
 
 The Certificate DocType is used to maintain certification records associated with imported materials and products.
 
@@ -48,7 +48,7 @@ It includes the following information:
 
 The Certificate Type DocType is used to define and maintain different types of certificates. For example, BCI-Slub is configured as a certificate type, with an associated wastage percentage.
 
-## 4. Certificate Integration with Import Documents
+### 4. Certificate Integration with Import Documents
 
 Certification information is associated with imported products during the import process.
 
@@ -56,13 +56,13 @@ In the Contract document, the Product Details child table includes a Certificati
 
 As the import process continues through subsequent documents, product-related information and quantities are maintained across the relevant document records. Depending on the document and transaction, product quantities may be represented across multiple rows.
 
-### Screenshot: Contract – Product Certification
+#### Contract – Product Certification
 
 ![Contract Product Certification](../screenshots/contract-certification.png)
 
 *Figure 1: Certification field in the Product Details child table of the Contract.*
 
-## 5. Certificate Claim
+### 5. Certificate Claim
 
 Certificate Claim is used to maintain certificate-related quantity information against a submitted Material Receipt Report (MRR).
 
@@ -83,21 +83,27 @@ The Certificate Claim Details child table contains information such as:
 
 This information helps track the relationship between imported product quantities, received quantities, and certificate-related claims.
 
-### Screenshot: Certificate Claim
+#### Certificate Claim
 
 ![Certificate Claim](../screenshots/certificate-claim.png)
 
 *Figure 2: Certificate Claim document showing item-wise certification and quantity details.*
 
-# Sales Management
+## 2. Sales Management
 
-## 1. Overview
+### 1. Overview
 
 The Sales module in Salma ERP supports the management of export sales transactions, from Proforma Invoice (PI) references to delivery-related activities.
 
 The process includes Sales PI, Export LC, Delivery Order, and Delivery Challan. It also includes certificate-related functionality to track certificate quantities against delivered products.
 
-## 2. Sales Process Overview
+### 2. Certificate Stock Balance Report
+
+The Certificate Stock Balance report provides a consolidated view of certificate-related quantity movements associated with sales and delivery transactions.
+
+It tracks certificate quantities from Sales PI booking through Certificate Claim and Certificate Issue, helping users monitor the certificate stock position for different items.
+
+### 3. Sales Process Overview
 
 The general sales process follows this sequence:
 
@@ -109,7 +115,7 @@ The general sales process follows this sequence:
 
 A Delivery Order is created with reference to the relevant sales information, including PI and Export LC details. Delivery Challan is then used to record the actual delivery against the order.
 
-## 3. Sales PI and Delivery Order
+### 4. Sales PI and Delivery Order
 
 Sales PI contains the commercial and product-related information required for export sales transactions.
 
@@ -128,7 +134,7 @@ Key information includes:
 
 The PI and Export LC history sections help track the relationship between the original sales quantity, LC quantity, delivered quantity, and remaining balance.
 
-## 4. Certificate Issue
+### 5. Certificate Issue
 
 Certificate Issue maintains certificate quantities associated with delivered products.
 
@@ -147,7 +153,7 @@ The Certificate Issue document includes:
 - Certificate Claim quantity
 - Available quantity
 
-### Certificate Quantity Calculation
+#### Certificate Quantity Calculation
 
 The system calculates certificate-related quantities based on the delivered item quantity, certificate percentage, and applicable wastage.
 
@@ -155,29 +161,17 @@ When multiple entries relate to the same certificate, their quantities are accum
 
 The system also considers the Certificate Claim quantity and calculates the available balance.
 
-**Available Quantity = Certificate Claim Quantity − Cumulative Certificate Issue Quantity**
+**Available Quantity = Certificate Claim Quantity − Certificate Issue Quantity**
 
 Since Certificate Issue represents certificate quantity used against deliveries, the issue quantity reduces the available balance.
 
-### Screenshot: Certificate Issue
+#### Certificate Issue
 
 ![Certificate Issue](../screenshots/certificate-issue.png)
 
 *Figure 3: Automatically generated Certificate Issue document showing certificate quantity breakdown, wastage, claim quantity, and available balance.*
 
-## 5. Certificate and Certificate Type
-
-The Certificate DocType is used to maintain certificate information required for product certification during sales and delivery operations.
-
-It stores relevant certificate details, including certificate name, certificate number, certificate type, validity information, certificate quantity, and other related information.
-
-### Certificate Type
-
-The Certificate Type DocType is used to configure different certificate categories and their associated wastage percentages.
-
-These configurations are used in certificate-related calculations during the delivery process.
-
-## 6. Certificate Stock Balance Report
+## 3. Certificate Stock Balance Report
 
 The Certificate Stock Balance report provides a consolidated view of certificate-related quantity movements associated with sales and delivery transactions.
 
@@ -210,14 +204,12 @@ The report also provides a consolidated total of Booking Qty, In Qty, Out Qty, a
 
 Negative balances are highlighted in red to help identify negative certificate stock positions.
 
-### Screenshot: Certificate Stock Balance Report
+#### Certificate Stock Balance Report
 
 ![Certificate Stock Balance Report](../screenshots/certificate-stock-balance.png)
 
 *Figure 4: Certificate Stock Balance report showing certificate quantities booked through Sales PI, received through Certificate Claim, issued through Certificate Issue, and the resulting balance.*
 
-## 7. Confidentiality
-
-## Confidentiality
+## 4. Confidentiality
 
 All screenshots must be anonymized before public publication. Company, importer, supplier, customer, and contact details, Certificate and Certificate Type information, Certificate Issue and Certificate Claim references, LC and transaction references, sensitive quantities, financial values, and other confidential business data must be hidden or replaced with sample data.
