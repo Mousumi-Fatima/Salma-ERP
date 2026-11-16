@@ -260,6 +260,20 @@ The form also displays the employee's leave balance, including allocated, used, 
 
 *Figure 18: Leave Application form showing employee details, leave information, leave balance, and approval workflow.*
 
+### 2.5 Expense Claims
+
+The HR Management module also includes Expense Claims Management, which handles employee expense submissions, expense reimbursements, employee advances, and related financial transactions.
+
+### 2.6 Performance Management
+
+Performance Management helps organizations evaluate employee performance through structured appraisal and feedback processes. It is used to evaluate employee performance and determine salary increments and promotions based on evaluation results. It includes bulk employee performance reviews, individual performance evaluations, attendance and discipline scoring, department evaluations, and increment recommendations. The module supports employee performance reviews, appraisal management, and performance-related feedback.
+
+**Performance Workspace:**
+
+![Performance Workspace](../screenshots/performance-overview.png)
+
+*Figure 20: Performance workspace showing employee performance review and individual evaluation features.*
+
 ## 3. Technical Implementation
 
 The HR module development involved the following technologies and implementation areas, where applicable:
