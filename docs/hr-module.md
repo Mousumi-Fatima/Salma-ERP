@@ -315,7 +315,7 @@ Depending on the document type and business requirements, workflows may include:
 
 These configurations help standardize HR approval procedures, enforce role-based access, and ensure that documents follow the required organizational approval process.
 
-### Example:Leave Application Workflow
+### 3.1 Example: Leave Application Workflow
 
 The Leave Application Workflow manages the approval process for employee leave requests through multiple levels of authorization.
 
