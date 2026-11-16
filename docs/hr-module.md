@@ -264,7 +264,9 @@ The HR Management module also includes Expense Claims Management, which handles 
 
 ### 2.6 Performance Management
 
-Performance Management helps organizations evaluate employee performance through structured appraisal and feedback processes. It is used to evaluate employee performance and determine salary increments and promotions based on evaluation results. It includes bulk employee performance reviews, individual performance evaluations, attendance and discipline scoring, department evaluations, and increment recommendations. The module supports employee performance reviews, appraisal management, and performance-related feedback.
+Performance Management is used to evaluate employee performance and manage performance-based salary increments and promotion recommendations.
+
+It includes bulk employee performance reviews, individual performance evaluations, attendance and discipline scoring, department evaluations, and increment recommendations.
 
 **Performance Workspace:**
 
