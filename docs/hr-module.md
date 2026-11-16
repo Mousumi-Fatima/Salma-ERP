@@ -3,13 +3,11 @@
 
 ## 1. Module Overview
 
-The HR Management module is one of the key functional areas of Salma ERP.
+The HR Management module is one of the key functional areas of Salma ERP. It provides a centralized workspace for managing various human resource operations within the organization.
 
-It supports human resource management activities, with a focus on recruitment processes and employee lifecycle management.
+The module includes Employee Management, Employee Lifecycle, Recruitment, Leave Management, Shift & Attendance, Performance Management, Expense Claims, and other HR-related functionalities.
 
-The module includes standard ERPNext HR functionalities along with project-specific customizations developed to meet business requirements.The HR module provides a centralized workspace for managing various human resource operations within Salma ERP.
-
-It brings together key HR functionalities, including Employee Management, Employee Lifecycle, Recruitment, Leave Management, Shift & Attendance, and other HR-related operations.
+It combines standard ERPNext HR features with project-specific customizations to address business requirements, with particular emphasis on recruitment processes and employee lifecycle management.
 
 The HR workspace provides quick access to frequently used features, reports, and master data.
 
@@ -272,52 +270,95 @@ Performance Management helps organizations evaluate employee performance through
 
 ![Performance Workspace](../screenshots/performance-overview.png)
 
-*Figure 20: Performance workspace showing employee performance review and individual evaluation features.*
+*Figure 19: Performance workspace showing employee performance review and individual evaluation features.*
 
-## 3. Technical Implementation
+#### 2.6.1 Employee's Performance Review
 
-The HR module development involved the following technologies and implementation areas, where applicable:
+Employee's Performance Review is used to evaluate multiple employees within a defined review period and manage performance-based salary increment recommendations.
 
-| Area | Technology |
-|---|---|
-| Framework | Frappe Framework |
-| ERP Platform | ERPNext |
-| Backend Development | Python |
-| Frontend Development | JavaScript |
-| Database | MariaDB |
-| Templates | Jinja |
+It allows employees to be filtered by company, branch, and employee category. The review includes attendance and discipline scores, department evaluation, total performance scores, final results, and recommended salary enhancements.
 
-### Technical Work
+It also includes a designation-wise Increment Percentage table to define increment percentages for different designations. The document follows an approval workflow before finalization.
 
-- Custom DocType development and customization.
-- Python-based server-side logic.
-- JavaScript-based client-side scripting.
-- API development using Frappe whitelisted methods.
-- Workflow and permission customization.
-- Form customization and validation.
-- Reports and Print Format customization, where applicable.
+![Employee's Performance Review](../screenshots/employees-performance-review.png)
 
-## 4. Workflow and Process Diagrams
+*Figure 20: Employee's Performance Review showing employee evaluation details, increment recommendations, and designation-wise increment percentages.*
 
-The following diagrams can be added to illustrate the relevant HR processes.
+#### 2.6.2 Individual Performance Evaluation
 
-### Recruitment Workflow
+Individual Performance Evaluation is used to maintain an employee's performance evaluation record within a specific review period.
 
-![Recruitment Workflow](../diagrams/hr-recruitment-workflow.png)
+It stores employee information, department, designation, company, and evaluation dates. The document is linked to the corresponding Employee's Performance Review.
 
-*Figure 5: High-level recruitment workflow.*
+It includes separate sections for Manager Review, Self Review, Review of Manager, Job History, Decision, and Reference. The evaluation record also follows an approval workflow.
 
-### Employee Lifecycle Workflow
+![Individual Performance Evaluation](../screenshots/individual-performance-evaluation.png)
 
-![Employee Lifecycle Workflow](../diagrams/hr-employee-lifecycle.png)
+*Figure 21: Individual Performance Evaluation showing employee details, review period, evaluation sections, and approval status.*
 
-*Figure 6: High-level employee lifecycle workflow.*
+## 3. Workflow Configuration
 
-## 5. Summary of My Contributions
+The HR module includes multiple customized workflows to manage document approval processes across different HR operations.
 
-My primary focus within the HR module has been Recruitment Management and Employee Lifecycle development.
+These workflows define the lifecycle of HR documents through configurable states, transitions, role-based permissions, and conditional approval rules.
 
-My responsibilities included implementing assigned requirements, customizing existing ERPNext functionalities, and contributing to backend and frontend development using the Frappe Framework.
+Depending on the document type and business requirements, workflows may include:
+
+- **Workflow States:** Define the different stages of a document, such as Draft, Pending Approval, Rejected, and Approved.
+- **Workflow Transitions:** Define the actions available to move a document from one state to another, such as Submit, Approve, Reject, and Resubmit.
+- **Role-Based Approval:** Assign specific approval actions to authorized roles, such as HR User, HR Head, Department Head, and Management.
+- **Conditional Transitions:** Apply conditions based on document fields, such as branch, employee category, or other business-specific criteria.
+- **Approval Hierarchy:** Configure multi-level approval processes involving relevant departments and management authorities.
+- **Document Status Management:** Control document submission and approval status based on the configured workflow.
+
+These configurations help standardize HR approval procedures, enforce role-based access, and ensure that documents follow the required organizational approval process.
+
+### Example:Leave Application Workflow
+
+The Leave Application Workflow manages the approval process for employee leave requests through multiple levels of authorization.
+
+It supports different approval paths for Head Office and Factory employees. The applicable approval route is determined by conditions such as employee category, designation, department, branch, and deputation.
+
+Depending on these conditions, a leave application may pass through relevant approval authorities, including HOD, HR Head, Deputy HR, Plant Head, Executive Director, COO, or Director.
+
+The workflow supports actions such as Apply, Approve, Reject, Resubmit, Check, and Recommend, with Approved and Rejected as final workflow states.
+
+**Workflow Configuration Screenshot:**
+
+![Employee Leave Application Workflow Configuration](../screenshots/performance-review-workflow.png)
+
+*Figure 22: ERPNext Workflow configuration showing document states, role-based transitions, and conditional approval rules.*
+
+### 4. Print Format Customization
+
+Print Formats are used to present ERPNext documents in structured, printable layouts suitable for official and business purposes.
+
+I worked on customizing multiple Print Formats based on project requirements, focusing on document layout, information presentation, and formatting.
+
+The customization involved using **Jinja, HTML, CSS, and Frappe Print Format features** to create organized and readable document layouts.
+
+**Examples of Print Formats:**
+
+- Employee-related documents
+- HR and administrative documents
+- Official letters and certificates
+- Other business-related documents
+
+### 5. Report Customization
+
+Reports provide structured views of HR data to support monitoring, tracking, and business decision-making.
+
+I worked on developing and customizing multiple reports according to project requirements, focusing on data retrieval, filtering, presentation, and report structure.
+
+The report customization involved working with relevant DocTypes, database fields, and report logic to present meaningful information.
+
+**Examples of Reports:**
+
+- Employee-related reports
+- Recruitment reports
+- Leave-related reports
+- Performance-related reports
+- Other HR operational reports
 
 ## 6. Confidentiality
 
