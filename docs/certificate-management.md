@@ -3,7 +3,7 @@
 
 ## 1. Import Management
 
-### 1. Overview
+### 1.1. Overview
 
 Certificate Management is part of the Import process in Salma ERP. It is used to maintain certification information associated with imported materials and products.
 
@@ -11,7 +11,7 @@ The functionality supports certificate registration, certificate type configurat
 
 My development contributions primarily focus on the Certificate and Certificate Type DocTypes and certificate-related functionality across the import process.
 
-### 2. Import Process Overview
+### 1.2. Import Process Overview
 
 The import process generally follows this sequence:
 
@@ -30,7 +30,7 @@ In some cases, the process may proceed directly from Shipment Document to MRR, w
 
 After an MRR is submitted, a Certificate Claim document is automatically generated to maintain the related certificate claim information.
 
-### 3. Certificate Management
+### 1.3. Certificate Management
 
 The Certificate DocType is used to maintain certification records associated with imported materials and products.
 
@@ -48,7 +48,7 @@ It includes the following information:
 
 The Certificate Type DocType is used to define and maintain different types of certificates. For example, BCI-Slub is configured as a certificate type, with an associated wastage percentage.
 
-### 4. Certificate Integration with Import Documents
+### 1.4. Certificate Integration with Import Documents
 
 Certification information is associated with imported products during the import process.
 
@@ -62,7 +62,7 @@ As the import process continues through subsequent documents, product-related in
 
 *Figure 1: Certification field in the Product Details child table of the Contract.*
 
-### 5. Certificate Claim
+### 1.5. Certificate Claim
 
 Certificate Claim is used to maintain certificate-related quantity information against a submitted Material Receipt Report (MRR).
 
@@ -91,19 +91,13 @@ This information helps track the relationship between imported product quantitie
 
 ## 2. Sales Management
 
-### 1. Overview
+### 2.1. Overview
 
 The Sales module in Salma ERP supports the management of export sales transactions, from Proforma Invoice (PI) references to delivery-related activities.
 
 The process includes Sales PI, Export LC, Delivery Order, and Delivery Challan. It also includes certificate-related functionality to track certificate quantities against delivered products.
 
-### 2. Certificate Stock Balance Report
-
-The Certificate Stock Balance report provides a consolidated view of certificate-related quantity movements associated with sales and delivery transactions.
-
-It tracks certificate quantities from Sales PI booking through Certificate Claim and Certificate Issue, helping users monitor the certificate stock position for different items.
-
-### 3. Sales Process Overview
+### 2.2. Sales Process Overview
 
 The general sales process follows this sequence:
 
@@ -115,7 +109,13 @@ The general sales process follows this sequence:
 
 A Delivery Order is created with reference to the relevant sales information, including PI and Export LC details. Delivery Challan is then used to record the actual delivery against the order.
 
-### 4. Sales PI and Delivery Order
+### 2.3. Certificate Stock Balance Report
+
+The Certificate Stock Balance report provides a consolidated view of certificate-related quantity movements associated with sales and delivery transactions.
+
+It tracks certificate quantities from Sales PI booking through Certificate Claim and Certificate Issue, helping users monitor the certificate stock position for different items.
+
+### 2.4. Sales PI and Delivery Order
 
 Sales PI contains the commercial and product-related information required for export sales transactions.
 
@@ -134,7 +134,7 @@ Key information includes:
 
 The PI and Export LC history sections help track the relationship between the original sales quantity, LC quantity, delivered quantity, and remaining balance.
 
-### 5. Certificate Issue
+### 2.5. Certificate Issue
 
 Certificate Issue maintains certificate quantities associated with delivered products.
 
