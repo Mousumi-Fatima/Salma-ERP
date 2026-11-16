@@ -161,7 +161,7 @@ Since Certificate Issue represents certificate quantity used against deliveries,
 
 ### Screenshot: Certificate Issue
 
-![Certificate Issue](../screenshots/sales/certificate-issue.png)
+![Certificate Issue](../screenshots/certificate-issue.png)
 
 *Figure 3: Automatically generated Certificate Issue document showing certificate quantity breakdown, wastage, claim quantity, and available balance.*
 
