@@ -47,7 +47,7 @@ The relevant functional areas include:
 
 The following screenshot shows the Recruitment workspace and its key functional areas.
 
-![HR Module Overview](../screenshots/recruitment-overview.png)
+![Recruitment Workspace](../screenshots/recruitment-overview.png)
 
 *Figure 2: Recruitment workspace dashboard of Salma ERP.*
 
@@ -70,7 +70,7 @@ The following screenshot illustrates the Manpower Setup interface, including man
 
 ![Manpower Setup](../screenshots/manpower-setup.png)
 
-*Figure 2: Manpower Setup interface showing workforce planning and manpower details.*
+*Figure 3: Manpower Setup interface showing workforce planning and manpower details.*
 
 
 #### 2.1.2 Job Requisition
@@ -81,7 +81,7 @@ It captures position details, required qualifications, skills, experience, salar
 
 ![Job Requisition](../screenshots/job-requisition.png)
 
-*Figure 3: Job Requisition form showing hiring requirements and approval workflow.*
+*Figure 4: Job Requisition form showing hiring requirements and approval workflow.*
 
 
 #### 2.1.3 Job Circular
@@ -92,7 +92,7 @@ It contains job details, including designation, department, employment type, loc
 
 ![Job Circular](../screenshots/job-circular.png)
 
-*Figure 4: Job Circular form showing job opening details and publication settings.*
+*Figure 5: Job Circular form showing job opening details and publication settings.*
 
 #### 2.1.4 Job Applicant
 
@@ -102,7 +102,7 @@ It stores applicant details, contact information, resume, salary expectations, a
 
 ![Job Applicant](../screenshots/job-applicant.png)
 
-*Figure 5: Job Applicant form showing candidate information, application status, and interview summary.*
+*Figure 6: Job Applicant form showing candidate information, application status, and interview summary.*
 
 #### 2.1.5 Interview
 
@@ -112,7 +112,7 @@ It maintains interview rounds, scheduled dates and times, interview locations, a
 
 ![Interview Management](../screenshots/interview.png)
 
-*Figure 6: Interview form showing interview scheduling, interviewers, and candidate evaluation status.*
+*Figure 7: Interview form showing interview scheduling, interviewers, and candidate evaluation status.*
 
 #### 2.1.6 Interview Feedback
 
@@ -122,7 +122,7 @@ It records criteria-wise marks, interviewer comments, skill assessments, overall
 
 ![Interview Feedback](../screenshots/interview-feedback.png)
 
-*Figure 7: Interview Feedback form showing candidate assessment criteria and evaluation details.*
+*Figure 8: Interview Feedback form showing candidate assessment criteria and evaluation details.*
 
 #### 2.1.7 Candidate Approval
 
