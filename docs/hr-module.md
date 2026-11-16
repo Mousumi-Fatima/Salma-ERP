@@ -325,7 +325,7 @@ The workflow supports actions such as Apply, Approve, Reject, Resubmit, Check, a
 
 **Workflow Configuration Screenshot:**
 
-![Employee Leave Application Workflow Configuration](../screenshots/performance-review-workflow.png)
+![Employee Leave Application Workflow Configuration](../screenshots/leave-application-workflow.png)
 
 *Figure 22: ERPNext Workflow configuration showing document states, role-based transitions, and conditional approval rules.*
 
